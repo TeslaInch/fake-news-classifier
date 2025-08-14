@@ -5,7 +5,7 @@ import joblib
 model = joblib.load("fake_news_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
-st.title("📰 Fake News Classifier (ISOT Dataset)")
+st.title("📰 Fake News Classifier")
 st.write("Enter news content to check if it's real or fake.")
 
 user_input = st.text_area("News content:")
